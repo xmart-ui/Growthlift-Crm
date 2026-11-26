@@ -35,34 +35,6 @@ export default function AdminDashboard({ onLogout }) {
   ]
 
   const stats = [
-    {
-      title: 'Total Leads',
-      value: '248',
-      change: '+12.5%',
-      icon: Users,
-      color: 'blue',
-    },
-    {
-      title: 'Customers',
-      value: '186',
-      change: '+8.2%',
-      icon: UserRound,
-      color: 'violet',
-    },
-    {
-      title: 'Pending Tasks',
-      value: '24',
-      change: 'Needs attention',
-      icon: Clock3,
-      color: 'amber',
-    },
-    {
-      title: 'Completed Tasks',
-      value: '132',
-      change: '+18.4%',
-      icon: CheckCircle2,
-      color: 'emerald',
-    },
   ]
 
   const leads = [

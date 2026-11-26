@@ -38,8 +38,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://growthlift-crm.vercel.app",
-        "https://growthlift-crm1.vercel.app",
-        "http://localhost:5173",
+        "http://localhost:5173"
     ],
     allow_credentials=True,
     allow_methods=["*"],
